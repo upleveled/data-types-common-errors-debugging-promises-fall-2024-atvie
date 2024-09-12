@@ -6,8 +6,14 @@ const myBoolean = true;
 let myBoolean2 = true;
 myBoolean2 = false;
 
+// Create a boolean using a conditions
+let age = 20;
+const isBigger = age > 25;
+
 // Number
-const num = 5;
+const num = 5; // Integer
+
+const pi = 3.14; // Floating point number
 
 let num2 = 5;
 num2 = 10;
@@ -105,17 +111,17 @@ const animals = [
   {
     id: 3,
     type: 'Rooster',
-    name: 'c',
+    name: 'Colt',
   },
   {
     id: 4,
     type: 'Dog',
-    name: 'd',
+    name: 'Drago',
   },
   {
     id: 5,
     type: 'Anteater',
-    name: 'e',
+    name: 'Ethan',
   },
 ];
 
